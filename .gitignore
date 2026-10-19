@@ -1,0 +1,13 @@
+# Local/server config with credentials
+app/config.php
+
+# Database and uploads live only on the server
+storage/*
+!storage/.htaccess
+uploads/*
+!uploads/.htaccess
+
+# Contact / lead lists (personal data) — never commit
+*.csv
+*.xlsx
+leads/
